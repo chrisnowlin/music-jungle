@@ -1,0 +1,772 @@
+[
+  {
+    "id": "e001",
+    "difficulty": "early",
+    "type": "listenPick",
+    "prompt": "Listen! Which instrument is playing?",
+    "audioInstrument": "violin",
+    "choices": [
+      { "id": "a", "label": "Flute", "instrument": "flute" },
+      { "id": "b", "label": "Violin", "instrument": "violin" },
+      { "id": "c", "label": "Trumpet", "instrument": "trumpet" }
+    ],
+    "answerId": "b",
+    "explain": "The violin has strings that wiggle to make its bright sound.",
+    "standard": "K.ML.1.2"
+  },
+  {
+    "id": "e002",
+    "difficulty": "early",
+    "type": "listenPick",
+    "prompt": "Listen closely. What do you hear?",
+    "audioInstrument": "trumpet",
+    "choices": [
+      { "id": "a", "label": "Trumpet", "instrument": "trumpet" },
+      { "id": "b", "label": "Violin", "instrument": "violin" },
+      { "id": "c", "label": "Xylophone", "instrument": "xylophone" }
+    ],
+    "answerId": "a",
+    "explain": "The trumpet sings when the player buzzes their lips into it.",
+    "standard": "K.ML.1.2"
+  },
+  {
+    "id": "e003",
+    "difficulty": "early",
+    "type": "listenPick",
+    "prompt": "Listen up. Which instrument is this?",
+    "audioInstrument": "snaredrum",
+    "choices": [
+      { "id": "a", "label": "Triangle", "instrument": "triangle" },
+      { "id": "b", "label": "Flute", "instrument": "flute" },
+      { "id": "c", "label": "Snare Drum", "instrument": "snaredrum" }
+    ],
+    "answerId": "c",
+    "explain": "Sticks tap the snare drum head to make its snappy rattle.",
+    "standard": "K.ML.1.3"
+  },
+  {
+    "id": "e004",
+    "difficulty": "early",
+    "type": "listenPick",
+    "prompt": "Listen. Which instrument do you hear?",
+    "audioInstrument": "flute",
+    "choices": [
+      { "id": "a", "label": "Harp", "instrument": "harp" },
+      { "id": "b", "label": "Trombone", "instrument": "trombone" },
+      { "id": "c", "label": "Flute", "instrument": "flute" }
+    ],
+    "answerId": "c",
+    "explain": "Blown air across a little hole makes the flute's breathy song.",
+    "standard": "1.ML.1.2"
+  },
+  {
+    "id": "e005",
+    "difficulty": "early",
+    "type": "listenPick",
+    "prompt": "Listen! What is making this sound?",
+    "audioInstrument": "harp",
+    "choices": [
+      { "id": "a", "label": "Harp", "instrument": "harp" },
+      { "id": "b", "label": "Clarinet", "instrument": "clarinet" },
+      { "id": "c", "label": "Tuba", "instrument": "tuba" }
+    ],
+    "answerId": "a",
+    "explain": "Harp strings wiggle pretty sounds when fingers pluck them.",
+    "standard": "K.ML.1.1"
+  },
+  {
+    "id": "e006",
+    "difficulty": "early",
+    "type": "listenPick",
+    "prompt": "Ready ears? Which instrument is playing?",
+    "audioInstrument": "xylophone",
+    "choices": [
+      { "id": "a", "label": "Timpani", "instrument": "timpani" },
+      { "id": "b", "label": "Xylophone", "instrument": "xylophone" },
+      { "id": "c", "label": "Guitar", "instrument": "guitar" }
+    ],
+    "answerId": "b",
+    "explain": "Mallets tap the wooden bars to make tinkly xylophone notes.",
+    "standard": "2.ML.1.2"
+  },
+  {
+    "id": "e007",
+    "difficulty": "early",
+    "type": "listenPick",
+    "prompt": "Listen! Which instrument do you hear?",
+    "audioInstrument": "clarinet",
+    "choices": [
+      { "id": "a", "label": "Saxophone", "instrument": "saxophone" },
+      { "id": "b", "label": "Trumpet", "instrument": "trumpet" },
+      { "id": "c", "label": "Clarinet", "instrument": "clarinet" }
+    ],
+    "answerId": "c",
+    "explain": "Air wiggles a thin reed inside the clarinet to play.",
+    "standard": "1.ML.1.2"
+  },
+  {
+    "id": "e008",
+    "difficulty": "early",
+    "type": "listenPick",
+    "prompt": "Sound safari! Which instrument is playing?",
+    "audioInstrument": "trombone",
+    "choices": [
+      { "id": "a", "label": "Cello", "instrument": "cello" },
+      { "id": "b", "label": "Trombone", "instrument": "trombone" },
+      { "id": "c", "label": "Tuba", "instrument": "tuba" }
+    ],
+    "answerId": "b",
+    "explain": "Buzzing lips make the trombone's smooth sliding sound.",
+    "standard": "1.ML.1.2"
+  },
+  {
+    "id": "e009",
+    "difficulty": "early",
+    "type": "listenPick",
+    "prompt": "Listen! Which instrument is this?",
+    "audioInstrument": "triangle",
+    "choices": [
+      { "id": "a", "label": "Triangle", "instrument": "triangle" },
+      { "id": "b", "label": "Snare Drum", "instrument": "snaredrum" },
+      { "id": "c", "label": "Timpani", "instrument": "timpani" }
+    ],
+    "answerId": "a",
+    "explain": "Tap the metal triangle and it goes ting, ting, ting.",
+    "standard": "K.ML.1.3"
+  },
+  {
+    "id": "e010",
+    "difficulty": "early",
+    "type": "listenPick",
+    "prompt": "Big ears on! What instrument is playing?",
+    "audioInstrument": "timpani",
+    "choices": [
+      { "id": "a", "label": "Double Bass", "instrument": "doublebass" },
+      { "id": "b", "label": "French Horn", "instrument": "frenchhorn" },
+      { "id": "c", "label": "Timpani", "instrument": "timpani" }
+    ],
+    "answerId": "c",
+    "explain": "Big mallets bounce on timpani to make boom-boom sounds.",
+    "standard": "2.ML.1.3"
+  },
+  {
+    "id": "e011",
+    "difficulty": "early",
+    "type": "familyPick",
+    "prompt": "Which family does the violin belong to?",
+    "audioInstrument": null,
+    "choices": [
+      { "id": "a", "label": "Strings", "instrument": null },
+      { "id": "b", "label": "Woodwinds", "instrument": null },
+      { "id": "c", "label": "Brass", "instrument": null },
+      { "id": "d", "label": "Percussion", "instrument": null }
+    ],
+    "answerId": "a",
+    "explain": "The violin has strings, so it lives with the string family.",
+    "standard": "K.ML.1.1"
+  },
+  {
+    "id": "e012",
+    "difficulty": "early",
+    "type": "familyPick",
+    "prompt": "Which family does the snare drum belong to?",
+    "audioInstrument": null,
+    "choices": [
+      { "id": "a", "label": "Strings", "instrument": null },
+      { "id": "b", "label": "Woodwinds", "instrument": null },
+      { "id": "c", "label": "Brass", "instrument": null },
+      { "id": "d", "label": "Percussion", "instrument": null }
+    ],
+    "answerId": "d",
+    "explain": "You hit the snare drum, so it is a percussion instrument.",
+    "standard": "1.ML.1.1"
+  },
+  {
+    "id": "e013",
+    "difficulty": "early",
+    "type": "familyPick",
+    "prompt": "Which family does the trumpet belong to?",
+    "audioInstrument": null,
+    "choices": [
+      { "id": "a", "label": "Strings", "instrument": null },
+      { "id": "b", "label": "Woodwinds", "instrument": null },
+      { "id": "c", "label": "Brass", "instrument": null },
+      { "id": "d", "label": "Percussion", "instrument": null }
+    ],
+    "answerId": "c",
+    "explain": "Players buzz their lips into the trumpet, so it is brass.",
+    "standard": "2.ML.1.1"
+  },
+  {
+    "id": "e014",
+    "difficulty": "early",
+    "type": "familyPick",
+    "prompt": "Which family does the clarinet belong to?",
+    "audioInstrument": null,
+    "choices": [
+      { "id": "a", "label": "Strings", "instrument": null },
+      { "id": "b", "label": "Woodwinds", "instrument": null },
+      { "id": "c", "label": "Brass", "instrument": null },
+      { "id": "d", "label": "Percussion", "instrument": null }
+    ],
+    "answerId": "b",
+    "explain": "The clarinet uses a reed and air, so it is a woodwind.",
+    "standard": "1.ML.1.1"
+  },
+  {
+    "id": "e015",
+    "difficulty": "early",
+    "type": "familyPick",
+    "prompt": "Which family does the cello belong to?",
+    "audioInstrument": null,
+    "choices": [
+      { "id": "a", "label": "Strings", "instrument": null },
+      { "id": "b", "label": "Woodwinds", "instrument": null },
+      { "id": "c", "label": "Brass", "instrument": null },
+      { "id": "d", "label": "Percussion", "instrument": null }
+    ],
+    "answerId": "a",
+    "explain": "The cello has big strings, so it is in the string family.",
+    "standard": "2.ML.1.1"
+  },
+  {
+    "id": "e016",
+    "difficulty": "early",
+    "type": "familyPick",
+    "prompt": "Which family does the xylophone belong to?",
+    "audioInstrument": null,
+    "choices": [
+      { "id": "a", "label": "Strings", "instrument": null },
+      { "id": "b", "label": "Woodwinds", "instrument": null },
+      { "id": "c", "label": "Brass", "instrument": null },
+      { "id": "d", "label": "Percussion", "instrument": null }
+    ],
+    "answerId": "d",
+    "explain": "You tap xylophone bars with mallets, so it is percussion.",
+    "standard": "K.ML.1.1"
+  },
+  {
+    "id": "e017",
+    "difficulty": "early",
+    "type": "familyPick",
+    "prompt": "Which family does the tuba belong to?",
+    "audioInstrument": null,
+    "choices": [
+      { "id": "a", "label": "Strings", "instrument": null },
+      { "id": "b", "label": "Woodwinds", "instrument": null },
+      { "id": "c", "label": "Brass", "instrument": null },
+      { "id": "d", "label": "Percussion", "instrument": null }
+    ],
+    "answerId": "c",
+    "explain": "The tuba is big and shiny, and buzzy lips make it brass.",
+    "standard": "2.ML.1.1"
+  },
+  {
+    "id": "e018",
+    "difficulty": "early",
+    "type": "familyPick",
+    "prompt": "Which family does the flute belong to?",
+    "audioInstrument": null,
+    "choices": [
+      { "id": "a", "label": "Strings", "instrument": null },
+      { "id": "b", "label": "Woodwinds", "instrument": null },
+      { "id": "c", "label": "Brass", "instrument": null },
+      { "id": "d", "label": "Percussion", "instrument": null }
+    ],
+    "answerId": "b",
+    "explain": "The flute plays with blown air, so it is a woodwind.",
+    "standard": "1.ML.1.1"
+  },
+  {
+    "id": "e019",
+    "difficulty": "early",
+    "type": "familyPick",
+    "prompt": "Which family does the double bass belong to?",
+    "audioInstrument": null,
+    "choices": [
+      { "id": "a", "label": "Strings", "instrument": null },
+      { "id": "b", "label": "Woodwinds", "instrument": null },
+      { "id": "c", "label": "Brass", "instrument": null },
+      { "id": "d", "label": "Percussion", "instrument": null }
+    ],
+    "answerId": "a",
+    "explain": "The double bass is the biggest member of the string family.",
+    "standard": "2.ML.1.1"
+  },
+  {
+    "id": "e020",
+    "difficulty": "early",
+    "type": "familyPick",
+    "prompt": "Which family does the triangle belong to?",
+    "audioInstrument": null,
+    "choices": [
+      { "id": "a", "label": "Strings", "instrument": null },
+      { "id": "b", "label": "Woodwinds", "instrument": null },
+      { "id": "c", "label": "Brass", "instrument": null },
+      { "id": "d", "label": "Percussion", "instrument": null }
+    ],
+    "answerId": "d",
+    "explain": "You tap the little metal triangle, so it is percussion.",
+    "standard": "K.ML.1.1"
+  },
+  {
+    "id": "e021",
+    "difficulty": "early",
+    "type": "instrumentPick",
+    "prompt": "I am small and sit under your chin. What am I?",
+    "audioInstrument": null,
+    "choices": [
+      { "id": "a", "label": "Trumpet", "instrument": "trumpet" },
+      { "id": "b", "label": "Snare Drum", "instrument": "snaredrum" },
+      { "id": "c", "label": "Violin", "instrument": "violin" }
+    ],
+    "answerId": "c",
+    "explain": "The violin tucks under your chin and sings with strings.",
+    "standard": "K.ML.1.3"
+  },
+  {
+    "id": "e022",
+    "difficulty": "early",
+    "type": "instrumentPick",
+    "prompt": "I am huge and stand on the floor. What am I?",
+    "audioInstrument": null,
+    "choices": [
+      { "id": "a", "label": "Double Bass", "instrument": "doublebass" },
+      { "id": "b", "label": "Flute", "instrument": "flute" },
+      { "id": "c", "label": "Trumpet", "instrument": "trumpet" }
+    ],
+    "answerId": "a",
+    "explain": "The double bass stands tall and makes deep, low sounds.",
+    "standard": "K.ML.1.3"
+  },
+  {
+    "id": "e023",
+    "difficulty": "early",
+    "type": "instrumentPick",
+    "prompt": "Shake me and I rattle. What am I?",
+    "audioInstrument": null,
+    "choices": [
+      { "id": "a", "label": "Tuba", "instrument": "tuba" },
+      { "id": "b", "label": "Shaker Eggs", "instrument": "shaker" },
+      { "id": "c", "label": "Harp", "instrument": "harp" }
+    ],
+    "answerId": "b",
+    "explain": "Shaker eggs rattle when you shake them to the beat.",
+    "standard": "1.ML.1.3"
+  },
+  {
+    "id": "e024",
+    "difficulty": "early",
+    "type": "instrumentPick",
+    "prompt": "I am the biggest brass horn of all. What am I?",
+    "audioInstrument": null,
+    "choices": [
+      { "id": "a", "label": "Trumpet", "instrument": "trumpet" },
+      { "id": "b", "label": "Flute", "instrument": "flute" },
+      { "id": "c", "label": "Tuba", "instrument": "tuba" }
+    ],
+    "answerId": "c",
+    "explain": "The tuba is the biggest brass horn with the lowest voice.",
+    "standard": "2.ML.1.3"
+  },
+  {
+    "id": "e025",
+    "difficulty": "early",
+    "type": "instrumentPick",
+    "prompt": "Strum my strings and sing along. What am I?",
+    "audioInstrument": null,
+    "choices": [
+      { "id": "a", "label": "Guitar", "instrument": "guitar" },
+      { "id": "b", "label": "Timpani", "instrument": "timpani" },
+      { "id": "c", "label": "Trombone", "instrument": "trombone" }
+    ],
+    "answerId": "a",
+    "explain": "You strum a guitar's strings to play happy songs.",
+    "standard": "1.ML.1.3"
+  },
+  {
+    "id": "e026",
+    "difficulty": "early",
+    "type": "instrumentPick",
+    "prompt": "Ding! Tap my metal sides. What am I?",
+    "audioInstrument": null,
+    "choices": [
+      { "id": "a", "label": "Bassoon", "instrument": "bassoon" },
+      { "id": "b", "label": "Triangle", "instrument": "triangle" },
+      { "id": "c", "label": "Cello", "instrument": "cello" }
+    ],
+    "answerId": "b",
+    "explain": "The triangle rings a ding when you tap its metal sides.",
+    "standard": "K.ML.1.3"
+  },
+  {
+    "id": "e027",
+    "difficulty": "early",
+    "type": "instrumentPick",
+    "prompt": "I am long. Slide my part to play me. What am I?",
+    "audioInstrument": null,
+    "choices": [
+      { "id": "a", "label": "Clarinet", "instrument": "clarinet" },
+      { "id": "b", "label": "Xylophone", "instrument": "xylophone" },
+      { "id": "c", "label": "Trombone", "instrument": "trombone" }
+    ],
+    "answerId": "c",
+    "explain": "Moving the trombone slide in and out changes the notes.",
+    "standard": "2.ML.1.3"
+  },
+  {
+    "id": "e028",
+    "difficulty": "early",
+    "type": "instrumentPick",
+    "prompt": "Blow me. I am shiny and gold like treasure. What am I?",
+    "audioInstrument": null,
+    "choices": [
+      { "id": "a", "label": "Saxophone", "instrument": "saxophone" },
+      { "id": "b", "label": "Violin", "instrument": "violin" },
+      { "id": "c", "label": "Snare Drum", "instrument": "snaredrum" }
+    ],
+    "answerId": "a",
+    "explain": "The golden saxophone puffs out smooth, jazzy sounds.",
+    "standard": "1.ML.1.3"
+  },
+  {
+    "id": "e029",
+    "difficulty": "early",
+    "type": "instrumentPick",
+    "prompt": "My keys click and I sound smooth and woody. What am I?",
+    "audioInstrument": null,
+    "choices": [
+      { "id": "a", "label": "Tuba", "instrument": "tuba" },
+      { "id": "b", "label": "Clarinet", "instrument": "clarinet" },
+      { "id": "c", "label": "Harp", "instrument": "harp" }
+    ],
+    "answerId": "b",
+    "explain": "The clarinet is black and woody with shiny clicking keys.",
+    "standard": "2.ML.1.3"
+  },
+  {
+    "id": "e030",
+    "difficulty": "early",
+    "type": "instrumentPick",
+    "prompt": "Boom! I am a giant drum. What am I?",
+    "audioInstrument": null,
+    "choices": [
+      { "id": "a", "label": "Flute", "instrument": "flute" },
+      { "id": "b", "label": "Guitar", "instrument": "guitar" },
+      { "id": "c", "label": "Timpani", "instrument": "timpani" }
+    ],
+    "answerId": "c",
+    "explain": "Timpani are giant copper bowls that boom with soft mallets.",
+    "standard": "2.ML.1.3"
+  },
+  {
+    "id": "e031",
+    "difficulty": "early",
+    "type": "factMC",
+    "prompt": "How does a violin make sound?",
+    "audioInstrument": null,
+    "choices": [
+      { "id": "a", "label": "By hitting it", "instrument": null },
+      { "id": "b", "label": "Its strings wiggle", "instrument": null },
+      { "id": "c", "label": "By blowing air", "instrument": null }
+    ],
+    "answerId": "b",
+    "explain": "Wiggling strings make the sound on every string instrument.",
+    "standard": "1.ML.1.3"
+  },
+  {
+    "id": "e032",
+    "difficulty": "early",
+    "type": "factMC",
+    "prompt": "How do you play a drum?",
+    "audioInstrument": null,
+    "choices": [
+      { "id": "a", "label": "Hit it", "instrument": null },
+      { "id": "b", "label": "Blow it", "instrument": null },
+      { "id": "c", "label": "Pluck it", "instrument": null }
+    ],
+    "answerId": "a",
+    "explain": "Drums speak when you tap them with hands or sticks.",
+    "standard": "K.ML.1.3"
+  },
+  {
+    "id": "e033",
+    "difficulty": "early",
+    "type": "factMC",
+    "prompt": "What makes the trumpet sound?",
+    "audioInstrument": null,
+    "choices": [
+      { "id": "a", "label": "Wiggling strings", "instrument": null },
+      { "id": "b", "label": "Air on a reed", "instrument": null },
+      { "id": "c", "label": "Buzzing lips", "instrument": null }
+    ],
+    "answerId": "c",
+    "explain": "Brass players buzz their lips to make the horn ring.",
+    "standard": "2.ML.1.3"
+  },
+  {
+    "id": "e034",
+    "difficulty": "early",
+    "type": "factMC",
+    "prompt": "How does a flute make sound?",
+    "audioInstrument": null,
+    "choices": [
+      { "id": "a", "label": "Hit the hole", "instrument": null },
+      { "id": "b", "label": "Pluck a string", "instrument": null },
+      { "id": "c", "label": "Blown air", "instrument": null }
+    ],
+    "answerId": "c",
+    "explain": "The air you blow makes the flute's soft, breathy sound.",
+    "standard": "1.ML.1.3"
+  },
+  {
+    "id": "e035",
+    "difficulty": "early",
+    "type": "factMC",
+    "prompt": "How do you play shaker eggs?",
+    "audioInstrument": null,
+    "choices": [
+      { "id": "a", "label": "Shake them", "instrument": null },
+      { "id": "b", "label": "Bow them", "instrument": null },
+      { "id": "c", "label": "Buzz at them", "instrument": null }
+    ],
+    "answerId": "a",
+    "explain": "Shakers chatter when you shake them along with the beat.",
+    "standard": "K.ML.1.3"
+  },
+  {
+    "id": "e036",
+    "difficulty": "early",
+    "type": "factMC",
+    "prompt": "How does a guitar make sound?",
+    "audioInstrument": null,
+    "choices": [
+      { "id": "a", "label": "Blow across it", "instrument": null },
+      { "id": "b", "label": "Pluck the strings", "instrument": null },
+      { "id": "c", "label": "Hit the body", "instrument": null }
+    ],
+    "answerId": "b",
+    "explain": "Plucked guitar strings wiggle and fill the air with music.",
+    "standard": "2.ML.1.3"
+  },
+  {
+    "id": "e037",
+    "difficulty": "early",
+    "type": "factMC",
+    "prompt": "What does every instrument need to make sound?",
+    "audioInstrument": null,
+    "choices": [
+      { "id": "a", "label": "Paint", "instrument": null },
+      { "id": "b", "label": "Quiet", "instrument": null },
+      { "id": "c", "label": "A part that wiggles", "instrument": null }
+    ],
+    "answerId": "c",
+    "explain": "Every sound starts when something wiggles back and forth.",
+    "standard": "K.MR.1.2"
+  },
+  {
+    "id": "e038",
+    "difficulty": "early",
+    "type": "factMC",
+    "prompt": "What do you tap a xylophone with?",
+    "audioInstrument": null,
+    "choices": [
+      { "id": "a", "label": "Your nose", "instrument": null },
+      { "id": "b", "label": "Soft mallets", "instrument": null },
+      { "id": "c", "label": "A feather", "instrument": null }
+    ],
+    "answerId": "b",
+    "explain": "Soft mallets bounce on the bars to play bright notes.",
+    "standard": "1.ML.1.3"
+  },
+  {
+    "id": "e039",
+    "difficulty": "early",
+    "type": "factMC",
+    "prompt": "How does a harp make sound?",
+    "audioInstrument": null,
+    "choices": [
+      { "id": "a", "label": "Plucking strings", "instrument": null },
+      { "id": "b", "label": "Hitting keys", "instrument": null },
+      { "id": "c", "label": "Blowing air", "instrument": null }
+    ],
+    "answerId": "a",
+    "explain": "Harp players pull the strings gently with their fingers.",
+    "standard": "2.ML.1.3"
+  },
+  {
+    "id": "e040",
+    "difficulty": "early",
+    "type": "factMC",
+    "prompt": "How does a tuba make sound?",
+    "audioInstrument": null,
+    "choices": [
+      { "id": "a", "label": "Pluck the bell", "instrument": null },
+      { "id": "b", "label": "Shake it up", "instrument": null },
+      { "id": "c", "label": "Buzzing lips", "instrument": null }
+    ],
+    "answerId": "c",
+    "explain": "Big buzzing lips make the tuba's great big low sound.",
+    "standard": "2.ML.1.3"
+  },
+  {
+    "id": "e041",
+    "difficulty": "early",
+    "type": "oddOneOut",
+    "prompt": "Which one does NOT belong?",
+    "audioInstrument": null,
+    "choices": [
+      { "id": "a", "label": "Violin", "instrument": "violin" },
+      { "id": "b", "label": "Guitar", "instrument": "guitar" },
+      { "id": "c", "label": "Harp", "instrument": "harp" },
+      { "id": "d", "label": "Trumpet", "instrument": "trumpet" }
+    ],
+    "answerId": "d",
+    "explain": "The trumpet is brass; the other three play with strings.",
+    "standard": "1.MR.1.2"
+  },
+  {
+    "id": "e042",
+    "difficulty": "early",
+    "type": "oddOneOut",
+    "prompt": "Three are friends. One is not. Who is it?",
+    "audioInstrument": null,
+    "choices": [
+      { "id": "a", "label": "Timpani", "instrument": "timpani" },
+      { "id": "b", "label": "Triangle", "instrument": "triangle" },
+      { "id": "c", "label": "Shaker Eggs", "instrument": "shaker" },
+      { "id": "d", "label": "Clarinet", "instrument": "clarinet" }
+    ],
+    "answerId": "d",
+    "explain": "The clarinet blows air to play; the others get hit or shaken.",
+    "standard": "K.MR.1.3"
+  },
+  {
+    "id": "e043",
+    "difficulty": "early",
+    "type": "oddOneOut",
+    "prompt": "Which one does NOT belong?",
+    "audioInstrument": null,
+    "choices": [
+      { "id": "a", "label": "Flute", "instrument": "flute" },
+      { "id": "b", "label": "Trombone", "instrument": "trombone" },
+      { "id": "c", "label": "Tuba", "instrument": "tuba" },
+      { "id": "d", "label": "French Horn", "instrument": "frenchhorn" }
+    ],
+    "answerId": "a",
+    "explain": "The flute is a woodwind; the other three are shiny brass.",
+    "standard": "1.MR.1.2"
+  },
+  {
+    "id": "e044",
+    "difficulty": "early",
+    "type": "oddOneOut",
+    "prompt": "Three are friends. One is not. Who is it?",
+    "audioInstrument": null,
+    "choices": [
+      { "id": "a", "label": "Trumpet", "instrument": "trumpet" },
+      { "id": "b", "label": "Trombone", "instrument": "trombone" },
+      { "id": "c", "label": "Tuba", "instrument": "tuba" },
+      { "id": "d", "label": "Xylophone", "instrument": "xylophone" }
+    ],
+    "answerId": "d",
+    "explain": "You tap the xylophone; the other three sing with buzzy lips.",
+    "standard": "2.MR.1.2"
+  },
+  {
+    "id": "e045",
+    "difficulty": "early",
+    "type": "oddOneOut",
+    "prompt": "Three are friends. One is not. Who is it?",
+    "audioInstrument": null,
+    "choices": [
+      { "id": "a", "label": "Snare Drum", "instrument": "snaredrum" },
+      { "id": "b", "label": "Bassoon", "instrument": "bassoon" },
+      { "id": "c", "label": "Timpani", "instrument": "timpani" },
+      { "id": "d", "label": "Triangle", "instrument": "triangle" }
+    ],
+    "answerId": "b",
+    "explain": "The bassoon plays with air and a reed; the others get hit.",
+    "standard": "1.MR.1.2"
+  },
+  {
+    "id": "e046",
+    "difficulty": "early",
+    "type": "oddOneOut",
+    "prompt": "Which one does NOT belong?",
+    "audioInstrument": null,
+    "choices": [
+      { "id": "a", "label": "Flute", "instrument": "flute" },
+      { "id": "b", "label": "Clarinet", "instrument": "clarinet" },
+      { "id": "c", "label": "Bassoon", "instrument": "bassoon" },
+      { "id": "d", "label": "Double Bass", "instrument": "doublebass" }
+    ],
+    "answerId": "d",
+    "explain": "The double bass has strings; the other three are woodwinds.",
+    "standard": "2.MR.1.2"
+  },
+  {
+    "id": "e047",
+    "difficulty": "early",
+    "type": "oddOneOut",
+    "prompt": "Which one does NOT belong?",
+    "audioInstrument": null,
+    "choices": [
+      { "id": "a", "label": "Cello", "instrument": "cello" },
+      { "id": "b", "label": "Violin", "instrument": "violin" },
+      { "id": "c", "label": "Guitar", "instrument": "guitar" },
+      { "id": "d", "label": "French Horn", "instrument": "frenchhorn" }
+    ],
+    "answerId": "d",
+    "explain": "The French horn is brass; the other three play with strings.",
+    "standard": "1.MR.1.2"
+  },
+  {
+    "id": "e048",
+    "difficulty": "early",
+    "type": "oddOneOut",
+    "prompt": "Which one does NOT belong?",
+    "audioInstrument": null,
+    "choices": [
+      { "id": "a", "label": "Saxophone", "instrument": "saxophone" },
+      { "id": "b", "label": "Clarinet", "instrument": "clarinet" },
+      { "id": "c", "label": "Flute", "instrument": "flute" },
+      { "id": "d", "label": "Harp", "instrument": "harp" }
+    ],
+    "answerId": "d",
+    "explain": "The harp plays with strings; the other three are woodwinds.",
+    "standard": "2.MR.1.2"
+  },
+  {
+    "id": "e049",
+    "difficulty": "early",
+    "type": "oddOneOut",
+    "prompt": "Three are friends. One is not. Who is it?",
+    "audioInstrument": null,
+    "choices": [
+      { "id": "a", "label": "Trombone", "instrument": "trombone" },
+      { "id": "b", "label": "French Horn", "instrument": "frenchhorn" },
+      { "id": "c", "label": "Trumpet", "instrument": "trumpet" },
+      { "id": "d", "label": "Shaker Eggs", "instrument": "shaker" }
+    ],
+    "answerId": "d",
+    "explain": "Shaker eggs are percussion; the other three are brass.",
+    "standard": "K.MR.1.3"
+  },
+  {
+    "id": "e050",
+    "difficulty": "early",
+    "type": "oddOneOut",
+    "prompt": "Which one does NOT belong?",
+    "audioInstrument": null,
+    "choices": [
+      { "id": "a", "label": "Xylophone", "instrument": "xylophone" },
+      { "id": "b", "label": "Timpani", "instrument": "timpani" },
+      { "id": "c", "label": "Snare Drum", "instrument": "snaredrum" },
+      { "id": "d", "label": "Violin", "instrument": "violin" }
+    ],
+    "answerId": "d",
+    "explain": "The violin plays with strings; the other three get tapped.",
+    "standard": "2.MR.1.2"
+  }
+]

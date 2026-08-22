@@ -1,0 +1,8 @@
+- generic [ref=f5e14]:
+  - heading "Who is exploring today?" [level=1] [ref=f5e15]
+  - generic [ref=f5e16]:
+    - button "🦥Maya Explorer 3–5" [ref=f5e17] [cursor=pointer]:
+      - text: 🦥Maya
+      - generic [ref=f5e18]: Explorer 3–5
+    - button "➕New Explorer" [ref=f5e19] [cursor=pointer]
+  - button "← Back" [ref=f5e21] [cursor=pointer]

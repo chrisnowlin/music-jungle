@@ -1,0 +1,90 @@
+{
+ "bassdrum": {
+  "dyn": "hit",
+  "note": null
+ },
+ "bassoon": {
+  "dyn": "forte",
+  "note": "G3"
+ },
+ "cello": {
+  "dyn": "forte",
+  "note": "C3"
+ },
+ "clarinet": {
+  "dyn": "forte",
+  "note": "E4"
+ },
+ "doublebass": {
+  "dyn": "forte",
+  "note": "C4"
+ },
+ "flute": {
+  "dyn": "forte",
+  "note": "C5"
+ },
+ "frenchhorn": {
+  "dyn": "forte",
+  "note": "C4"
+ },
+ "guitar": {
+  "dyn": "forte",
+  "note": "G3"
+ },
+ "harp": {
+  "dyn": "forte",
+  "note": "C4"
+ },
+ "harp.phrase": {
+  "dyn": "forte",
+  "note": "A5"
+ },
+ "saxophone": {
+  "dyn": "forte",
+  "note": "Cs4"
+ },
+ "shaker": {
+  "dyn": "hit",
+  "note": null
+ },
+ "snaredrum": {
+  "dyn": "hit",
+  "note": null
+ },
+ "timpani": {
+  "dyn": "forte",
+  "note": "C2"
+ },
+ "tomtom": {
+  "dyn": "hit",
+  "note": null
+ },
+ "triangle": {
+  "dyn": "hit",
+  "note": null
+ },
+ "trombone": {
+  "dyn": "mezzo-forte",
+  "note": "D3"
+ },
+ "trumpet": {
+  "dyn": "forte",
+  "note": "As3"
+ },
+ "tuba": {
+  "dyn": "forte",
+  "note": "F2"
+ },
+ "violin": {
+  "dyn": "forte",
+  "note": "G4"
+ },
+ "woodblock": {
+  "dyn": "hit",
+  "note": null
+ },
+ "xylophone": {
+  "dyn": "forte",
+  "note": "Cs4"
+ }
+}

@@ -1,0 +1,4 @@
+- generic [ref=f3e14]:
+  - heading "Who is exploring today?" [level=1] [ref=f3e15]
+  - button "➕New Explorer" [ref=f3e17] [cursor=pointer]
+  - button "← Back" [ref=f3e19] [cursor=pointer]

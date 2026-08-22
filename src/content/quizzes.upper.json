@@ -1,0 +1,797 @@
+[
+  {
+    "id": "u001",
+    "difficulty": "upper",
+    "type": "listenPick",
+    "prompt": "Listen! Which instrument is playing?",
+    "audioInstrument": "violin",
+    "choices": [
+      { "id": "a", "label": "Cello", "instrument": "cello" },
+      { "id": "b", "label": "Violin", "instrument": "violin" },
+      { "id": "c", "label": "Flute", "instrument": "flute" },
+      { "id": "d", "label": "Trumpet", "instrument": "trumpet" }
+    ],
+    "answerId": "b",
+    "explain": "Fast-vibrating strings give the violin its high, bright voice.",
+    "standard": "3.ML.1.2"
+  },
+  {
+    "id": "u002",
+    "difficulty": "upper",
+    "type": "listenPick",
+    "prompt": "Listen closely. What do you hear?",
+    "audioInstrument": "tuba",
+    "choices": [
+      { "id": "a", "label": "Trumpet", "instrument": "trumpet" },
+      { "id": "b", "label": "Trombone", "instrument": "trombone" },
+      { "id": "c", "label": "French Horn", "instrument": "frenchhorn" },
+      { "id": "d", "label": "Tuba", "instrument": "tuba" }
+    ],
+    "answerId": "d",
+    "explain": "The tuba is the largest brass horn, so it rumbles lowest.",
+    "standard": "4.ML.1.2"
+  },
+  {
+    "id": "u003",
+    "difficulty": "upper",
+    "type": "listenPick",
+    "prompt": "Listen up. Which instrument is this?",
+    "audioInstrument": "flute",
+    "choices": [
+      { "id": "a", "label": "Flute", "instrument": "flute" },
+      { "id": "b", "label": "Clarinet", "instrument": "clarinet" },
+      { "id": "c", "label": "Bassoon", "instrument": "bassoon" },
+      { "id": "d", "label": "Saxophone", "instrument": "saxophone" }
+    ],
+    "answerId": "a",
+    "explain": "The flute's tone starts when blown air splits on its edge.",
+    "standard": "3.ML.1.2"
+  },
+  {
+    "id": "u004",
+    "difficulty": "upper",
+    "type": "listenPick",
+    "prompt": "Listen. Which instrument do you hear?",
+    "audioInstrument": "timpani",
+    "choices": [
+      { "id": "a", "label": "Snare Drum", "instrument": "snaredrum" },
+      { "id": "b", "label": "Xylophone", "instrument": "xylophone" },
+      { "id": "c", "label": "Timpani", "instrument": "timpani" },
+      { "id": "d", "label": "Triangle", "instrument": "triangle" }
+    ],
+    "answerId": "c",
+    "explain": "Large mallets bounce on timpani to boom deep, tuneful pitches.",
+    "standard": "4.ML.1.2"
+  },
+  {
+    "id": "u005",
+    "difficulty": "upper",
+    "type": "listenPick",
+    "prompt": "Listen! What is making this sound?",
+    "audioInstrument": "frenchhorn",
+    "choices": [
+      { "id": "a", "label": "Trumpet", "instrument": "trumpet" },
+      { "id": "b", "label": "Tuba", "instrument": "tuba" },
+      { "id": "c", "label": "Trombone", "instrument": "trombone" },
+      { "id": "d", "label": "French Horn", "instrument": "frenchhorn" }
+    ],
+    "answerId": "d",
+    "explain": "The French horn wraps into a circle with a wide, flared bell.",
+    "standard": "5.ML.1.2"
+  },
+  {
+    "id": "u006",
+    "difficulty": "upper",
+    "type": "listenPick",
+    "prompt": "Ready ears? Which instrument is playing?",
+    "audioInstrument": "harp",
+    "choices": [
+      { "id": "a", "label": "Harp", "instrument": "harp" },
+      { "id": "b", "label": "Guitar", "instrument": "guitar" },
+      { "id": "c", "label": "Cello", "instrument": "cello" },
+      { "id": "d", "label": "Xylophone", "instrument": "xylophone" }
+    ],
+    "answerId": "a",
+    "explain": "Plucked harp strings vibrate in shimmering, sparkling layers.",
+    "standard": "5.ML.1.2"
+  },
+  {
+    "id": "u007",
+    "difficulty": "upper",
+    "type": "listenPick",
+    "prompt": "Listen! Which instrument do you hear?",
+    "audioInstrument": "bassoon",
+    "choices": [
+      { "id": "a", "label": "Flute", "instrument": "flute" },
+      { "id": "b", "label": "Clarinet", "instrument": "clarinet" },
+      { "id": "c", "label": "Bassoon", "instrument": "bassoon" },
+      { "id": "d", "label": "Saxophone", "instrument": "saxophone" }
+    ],
+    "answerId": "c",
+    "explain": "The bassoon's long tube and reed honk out low, funny notes.",
+    "standard": "4.ML.1.2"
+  },
+  {
+    "id": "u008",
+    "difficulty": "upper",
+    "type": "listenPick",
+    "prompt": "Sound safari! Which instrument is playing?",
+    "audioInstrument": "xylophone",
+    "choices": [
+      { "id": "a", "label": "Triangle", "instrument": "triangle" },
+      { "id": "b", "label": "Xylophone", "instrument": "xylophone" },
+      { "id": "c", "label": "Timpani", "instrument": "timpani" },
+      { "id": "d", "label": "Shaker Eggs", "instrument": "shaker" }
+    ],
+    "answerId": "b",
+    "explain": "Mallets striking wooden bars make the xylophone's crisp taps.",
+    "standard": "3.ML.1.2"
+  },
+  {
+    "id": "u009",
+    "difficulty": "upper",
+    "type": "listenPick",
+    "prompt": "Listen! Which instrument is this?",
+    "audioInstrument": "doublebass",
+    "choices": [
+      { "id": "a", "label": "Cello", "instrument": "cello" },
+      { "id": "b", "label": "Guitar", "instrument": "guitar" },
+      { "id": "c", "label": "Harp", "instrument": "harp" },
+      { "id": "d", "label": "Double Bass", "instrument": "doublebass" }
+    ],
+    "answerId": "d",
+    "explain": "Huge strings vibrate slowly, so the double bass purrs lowest.",
+    "standard": "5.ML.1.2"
+  },
+  {
+    "id": "u010",
+    "difficulty": "upper",
+    "type": "listenPick",
+    "prompt": "Big ears on! What instrument is playing?",
+    "audioInstrument": "clarinet",
+    "choices": [
+      { "id": "a", "label": "Clarinet", "instrument": "clarinet" },
+      { "id": "b", "label": "Flute", "instrument": "flute" },
+      { "id": "c", "label": "Trumpet", "instrument": "trumpet" },
+      { "id": "d", "label": "Violin", "instrument": "violin" }
+    ],
+    "answerId": "a",
+    "explain": "A thin reed vibrates inside the clarinet to start each tone.",
+    "standard": "4.ML.1.2"
+  },
+  {
+    "id": "u011",
+    "difficulty": "upper",
+    "type": "familyPick",
+    "prompt": "Which instrument family does the guitar belong to?",
+    "audioInstrument": null,
+    "choices": [
+      { "id": "a", "label": "Strings", "instrument": null },
+      { "id": "b", "label": "Woodwinds", "instrument": null },
+      { "id": "c", "label": "Brass", "instrument": null },
+      { "id": "d", "label": "Percussion", "instrument": null }
+    ],
+    "answerId": "a",
+    "explain": "Strummed guitar strings vibrate, so the guitar is a string instrument.",
+    "standard": "3.ML.1.1"
+  },
+  {
+    "id": "u012",
+    "difficulty": "upper",
+    "type": "familyPick",
+    "prompt": "Which instrument family does the snare drum belong to?",
+    "audioInstrument": null,
+    "choices": [
+      { "id": "a", "label": "Strings", "instrument": null },
+      { "id": "b", "label": "Woodwinds", "instrument": null },
+      { "id": "c", "label": "Brass", "instrument": null },
+      { "id": "d", "label": "Percussion", "instrument": null }
+    ],
+    "answerId": "d",
+    "explain": "Struck instruments belong to percussion, and you strike this drum.",
+    "standard": "3.ML.1.1"
+  },
+  {
+    "id": "u013",
+    "difficulty": "upper",
+    "type": "familyPick",
+    "prompt": "Which instrument family does the saxophone really belong to?",
+    "audioInstrument": null,
+    "choices": [
+      { "id": "a", "label": "Strings", "instrument": null },
+      { "id": "b", "label": "Woodwinds", "instrument": null },
+      { "id": "c", "label": "Brass", "instrument": null },
+      { "id": "d", "label": "Percussion", "instrument": null }
+    ],
+    "answerId": "b",
+    "explain": "Even though it shines like brass, its reed makes it a woodwind.",
+    "standard": "4.MR.1.2"
+  },
+  {
+    "id": "u014",
+    "difficulty": "upper",
+    "type": "familyPick",
+    "prompt": "Which instrument family does the trombone belong to?",
+    "audioInstrument": null,
+    "choices": [
+      { "id": "a", "label": "Strings", "instrument": null },
+      { "id": "b", "label": "Woodwinds", "instrument": null },
+      { "id": "c", "label": "Brass", "instrument": null },
+      { "id": "d", "label": "Percussion", "instrument": null }
+    ],
+    "answerId": "c",
+    "explain": "Buzzing lips power every brass horn, trombones included.",
+    "standard": "3.ML.1.1"
+  },
+  {
+    "id": "u015",
+    "difficulty": "upper",
+    "type": "familyPick",
+    "prompt": "Which instrument family does the triangle belong to?",
+    "audioInstrument": null,
+    "choices": [
+      { "id": "a", "label": "Strings", "instrument": null },
+      { "id": "b", "label": "Woodwinds", "instrument": null },
+      { "id": "c", "label": "Brass", "instrument": null },
+      { "id": "d", "label": "Percussion", "instrument": null }
+    ],
+    "answerId": "d",
+    "explain": "Percussion instruments are struck, shaken, or scraped, like the triangle.",
+    "standard": "3.ML.1.1"
+  },
+  {
+    "id": "u016",
+    "difficulty": "upper",
+    "type": "familyPick",
+    "prompt": "Which instrument family does the bassoon belong to?",
+    "audioInstrument": null,
+    "choices": [
+      { "id": "a", "label": "Strings", "instrument": null },
+      { "id": "b", "label": "Woodwinds", "instrument": null },
+      { "id": "c", "label": "Brass", "instrument": null },
+      { "id": "d", "label": "Percussion", "instrument": null }
+    ],
+    "answerId": "b",
+    "explain": "Air splitting across its double reed puts the bassoon in woodwinds.",
+    "standard": "4.ML.1.1"
+  },
+  {
+    "id": "u017",
+    "difficulty": "upper",
+    "type": "familyPick",
+    "prompt": "Which instrument family does the cello belong to?",
+    "audioInstrument": null,
+    "choices": [
+      { "id": "a", "label": "Strings", "instrument": null },
+      { "id": "b", "label": "Woodwinds", "instrument": null },
+      { "id": "c", "label": "Brass", "instrument": null },
+      { "id": "d", "label": "Percussion", "instrument": null }
+    ],
+    "answerId": "a",
+    "explain": "Cellists bow or pluck its vibrating strings, so the cello is a string instrument.",
+    "standard": "3.ML.1.1"
+  },
+  {
+    "id": "u018",
+    "difficulty": "upper",
+    "type": "familyPick",
+    "prompt": "Which instrument family does the xylophone belong to?",
+    "audioInstrument": null,
+    "choices": [
+      { "id": "a", "label": "Strings", "instrument": null },
+      { "id": "b", "label": "Woodwinds", "instrument": null },
+      { "id": "c", "label": "Brass", "instrument": null },
+      { "id": "d", "label": "Percussion", "instrument": null }
+    ],
+    "answerId": "d",
+    "explain": "Striking the bars with mallets makes the xylophone percussion.",
+    "standard": "3.ML.1.1"
+  },
+  {
+    "id": "u019",
+    "difficulty": "upper",
+    "type": "familyPick",
+    "prompt": "Which instrument family does the flute belong to?",
+    "audioInstrument": null,
+    "choices": [
+      { "id": "a", "label": "Strings", "instrument": null },
+      { "id": "b", "label": "Woodwinds", "instrument": null },
+      { "id": "c", "label": "Brass", "instrument": null },
+      { "id": "d", "label": "Percussion", "instrument": null }
+    ],
+    "answerId": "b",
+    "explain": "No reed is needed; blown air still splits at the flute's woodwind edge.",
+    "standard": "5.MR.1.2"
+  },
+  {
+    "id": "u020",
+    "difficulty": "upper",
+    "type": "familyPick",
+    "prompt": "Which instrument family does the French horn belong to?",
+    "audioInstrument": null,
+    "choices": [
+      { "id": "a", "label": "Strings", "instrument": null },
+      { "id": "b", "label": "Woodwinds", "instrument": null },
+      { "id": "c", "label": "Brass", "instrument": null },
+      { "id": "d", "label": "Percussion", "instrument": null }
+    ],
+    "answerId": "c",
+    "explain": "Lips buzzing into the mouthpiece prove the French horn is brass.",
+    "standard": "4.ML.1.1"
+  },
+  {
+    "id": "u021",
+    "difficulty": "upper",
+    "type": "instrumentPick",
+    "prompt": "I am bowed under the chin and sing highest of the strings. What am I?",
+    "audioInstrument": null,
+    "choices": [
+      { "id": "a", "label": "Cello", "instrument": "cello" },
+      { "id": "b", "label": "Violin", "instrument": "violin" },
+      { "id": "c", "label": "Flute", "instrument": "flute" },
+      { "id": "d", "label": "Trumpet", "instrument": "trumpet" }
+    ],
+    "answerId": "b",
+    "explain": "Smallest of the strings, the violin vibrates fastest and sings high.",
+    "standard": "3.MR.1.2"
+  },
+  {
+    "id": "u022",
+    "difficulty": "upper",
+    "type": "instrumentPick",
+    "prompt": "Which brass instrument is the biggest and lowest?",
+    "audioInstrument": null,
+    "choices": [
+      { "id": "a", "label": "Tuba", "instrument": "tuba" },
+      { "id": "b", "label": "Trumpet", "instrument": "trumpet" },
+      { "id": "c", "label": "French Horn", "instrument": "frenchhorn" },
+      { "id": "d", "label": "Trombone", "instrument": "trombone" }
+    ],
+    "answerId": "a",
+    "explain": "Its long, wide tube slows vibrations, dropping the pitch way down.",
+    "standard": "5.MR.1.2"
+  },
+  {
+    "id": "u023",
+    "difficulty": "upper",
+    "type": "instrumentPick",
+    "prompt": "I am the biggest string instrument and I stand on the floor. What am I?",
+    "audioInstrument": null,
+    "choices": [
+      { "id": "a", "label": "Guitar", "instrument": "guitar" },
+      { "id": "b", "label": "Harp", "instrument": "harp" },
+      { "id": "c", "label": "Double Bass", "instrument": "doublebass" },
+      { "id": "d", "label": "Cello", "instrument": "cello" }
+    ],
+    "answerId": "c",
+    "explain": "The towering double bass growls out the lowest string notes.",
+    "standard": "5.ML.1.1"
+  },
+  {
+    "id": "u024",
+    "difficulty": "upper",
+    "type": "instrumentPick",
+    "prompt": "Which brass instrument uses a long slide to change pitch?",
+    "audioInstrument": null,
+    "choices": [
+      { "id": "a", "label": "Trumpet", "instrument": "trumpet" },
+      { "id": "b", "label": "Trombone", "instrument": "trombone" },
+      { "id": "c", "label": "Tuba", "instrument": "tuba" },
+      { "id": "d", "label": "French Horn", "instrument": "frenchhorn" }
+    ],
+    "answerId": "b",
+    "explain": "Extending the slide lengthens the tube, which lowers the pitch.",
+    "standard": "5.ML.1.2"
+  },
+  {
+    "id": "u025",
+    "difficulty": "upper",
+    "type": "instrumentPick",
+    "prompt": "I am made of shiny metal, but I live with the woodwinds. What am I?",
+    "audioInstrument": null,
+    "choices": [
+      { "id": "a", "label": "Trumpet", "instrument": "trumpet" },
+      { "id": "b", "label": "Flute", "instrument": "flute" },
+      { "id": "c", "label": "Tuba", "instrument": "tuba" },
+      { "id": "d", "label": "Saxophone", "instrument": "saxophone" }
+    ],
+    "answerId": "d",
+    "explain": "Its vibrating reed keeps the saxophone a woodwind despite the glitter.",
+    "standard": "4.MR.1.2"
+  },
+  {
+    "id": "u026",
+    "difficulty": "upper",
+    "type": "instrumentPick",
+    "prompt": "Which string instrument uses pedals and dozens of strings?",
+    "audioInstrument": null,
+    "choices": [
+      { "id": "a", "label": "Harp", "instrument": "harp" },
+      { "id": "b", "label": "Guitar", "instrument": "guitar" },
+      { "id": "c", "label": "Violin", "instrument": "violin" },
+      { "id": "d", "label": "Double Bass", "instrument": "doublebass" }
+    ],
+    "answerId": "a",
+    "explain": "Concert harps carry about 47 strings and seven pitch pedals.",
+    "standard": "5.ML.1.1"
+  },
+  {
+    "id": "u027",
+    "difficulty": "upper",
+    "type": "instrumentPick",
+    "prompt": "Which instrument uses three valves to change pitch?",
+    "audioInstrument": null,
+    "choices": [
+      { "id": "a", "label": "Flute", "instrument": "flute" },
+      { "id": "b", "label": "Trombone", "instrument": "trombone" },
+      { "id": "c", "label": "Trumpet", "instrument": "trumpet" },
+      { "id": "d", "label": "Timpani", "instrument": "timpani" }
+    ],
+    "answerId": "c",
+    "explain": "Valves open extra tubing; longer tubing means lower notes.",
+    "standard": "5.ML.1.1"
+  },
+  {
+    "id": "u028",
+    "difficulty": "upper",
+    "type": "instrumentPick",
+    "prompt": "I am a drum tuned to real notes with a foot pedal. What am I?",
+    "audioInstrument": null,
+    "choices": [
+      { "id": "a", "label": "Snare Drum", "instrument": "snaredrum" },
+      { "id": "b", "label": "Timpani", "instrument": "timpani" },
+      { "id": "c", "label": "Triangle", "instrument": "triangle" },
+      { "id": "d", "label": "Shaker Eggs", "instrument": "shaker" }
+    ],
+    "answerId": "b",
+    "explain": "Timpani pedals tighten or loosen the head to set the pitch.",
+    "standard": "4.ML.1.1"
+  },
+  {
+    "id": "u029",
+    "difficulty": "upper",
+    "type": "instrumentPick",
+    "prompt": "Which instrument would play the lowest note?",
+    "audioInstrument": null,
+    "choices": [
+      { "id": "a", "label": "Double Bass", "instrument": "doublebass" },
+      { "id": "b", "label": "Violin", "instrument": "violin" },
+      { "id": "c", "label": "Flute", "instrument": "flute" },
+      { "id": "d", "label": "Xylophone", "instrument": "xylophone" }
+    ],
+    "answerId": "a",
+    "explain": "Long, thick strings vibrate slowly, and slow vibrations sound low.",
+    "standard": "5.MR.1.2"
+  },
+  {
+    "id": "u030",
+    "difficulty": "upper",
+    "type": "instrumentPick",
+    "prompt": "Blow across my edge; no reed needed. Who am I?",
+    "audioInstrument": null,
+    "choices": [
+      { "id": "a", "label": "Clarinet", "instrument": "clarinet" },
+      { "id": "b", "label": "Saxophone", "instrument": "saxophone" },
+      { "id": "c", "label": "Flute", "instrument": "flute" },
+      { "id": "d", "label": "Bassoon", "instrument": "bassoon" }
+    ],
+    "answerId": "c",
+    "explain": "Splitting your breath on the flute's edge starts its airy tone.",
+    "standard": "4.ML.1.1"
+  },
+  {
+    "id": "u031",
+    "difficulty": "upper",
+    "type": "factMC",
+    "prompt": "How does a trumpet make sound?",
+    "audioInstrument": null,
+    "choices": [
+      { "id": "a", "label": "Buzzing lips into the mouthpiece", "instrument": null },
+      { "id": "b", "label": "A vibrating reed", "instrument": null },
+      { "id": "c", "label": "Plucked strings", "instrument": null },
+      { "id": "d", "label": "Air split on an edge", "instrument": null }
+    ],
+    "answerId": "a",
+    "explain": "Brass players buzz their lips, and the whole horn rings along.",
+    "standard": "3.ML.1.3"
+  },
+  {
+    "id": "u032",
+    "difficulty": "upper",
+    "type": "factMC",
+    "prompt": "Why does the tuba play lower than the trumpet?",
+    "audioInstrument": null,
+    "choices": [
+      { "id": "a", "label": "It is shinier", "instrument": null },
+      { "id": "b", "label": "It weighs less", "instrument": null },
+      { "id": "c", "label": "It uses two reeds", "instrument": null },
+      { "id": "d", "label": "Its tube is much longer", "instrument": null }
+    ],
+    "answerId": "d",
+    "explain": "Longer tubing slows the vibrations, which lowers the pitch.",
+    "standard": "5.MR.1.2"
+  },
+  {
+    "id": "u033",
+    "difficulty": "upper",
+    "type": "factMC",
+    "prompt": "What vibrates to start a clarinet's sound?",
+    "audioInstrument": null,
+    "choices": [
+      { "id": "a", "label": "A string", "instrument": null },
+      { "id": "b", "label": "A thin reed", "instrument": null },
+      { "id": "c", "label": "A drumhead", "instrument": null },
+      { "id": "d", "label": "A valve", "instrument": null }
+    ],
+    "answerId": "b",
+    "explain": "The clarinet's reed quivers hundreds of times every second.",
+    "standard": "3.ML.1.3"
+  },
+  {
+    "id": "u034",
+    "difficulty": "upper",
+    "type": "factMC",
+    "prompt": "How do musicians play most percussion instruments?",
+    "audioInstrument": null,
+    "choices": [
+      { "id": "a", "label": "With a gentle bow", "instrument": null },
+      { "id": "b", "label": "By plucking strings", "instrument": null },
+      { "id": "c", "label": "Striking, shaking, or scraping", "instrument": null },
+      { "id": "d", "label": "By buzzing lips", "instrument": null }
+    ],
+    "answerId": "c",
+    "explain": "Percussion speaks up when it is struck, shaken, or scraped.",
+    "standard": "4.ML.1.1"
+  },
+  {
+    "id": "u035",
+    "difficulty": "upper",
+    "type": "factMC",
+    "prompt": "What makes EVERY musical sound?",
+    "audioInstrument": null,
+    "choices": [
+      { "id": "a", "label": "Vibrations", "instrument": null },
+      { "id": "b", "label": "Magnets", "instrument": null },
+      { "id": "c", "label": "Rainbows", "instrument": null },
+      { "id": "d", "label": "Batteries", "instrument": null }
+    ],
+    "answerId": "a",
+    "explain": "Every sound begins with something vibrating back and forth.",
+    "standard": "5.MR.1.2"
+  },
+  {
+    "id": "u036",
+    "difficulty": "upper",
+    "type": "factMC",
+    "prompt": "How does a violin make its sound?",
+    "audioInstrument": null,
+    "choices": [
+      { "id": "a", "label": "Blowing air", "instrument": null },
+      { "id": "b", "label": "Vibrating strings", "instrument": null },
+      { "id": "c", "label": "Buzzing lips", "instrument": null }
+    ],
+    "answerId": "b",
+    "explain": "Bowed or plucked strings vibrate to sing the tune.",
+    "standard": "4.ML.1.2"
+  },
+  {
+    "id": "u037",
+    "difficulty": "upper",
+    "type": "factMC",
+    "prompt": "In the jungle beat game, tapping gentler makes the sound...",
+    "audioInstrument": null,
+    "choices": [
+      { "id": "a", "label": "Louder", "instrument": null },
+      { "id": "b", "label": "Higher", "instrument": null },
+      { "id": "c", "label": "Softer", "instrument": null }
+    ],
+    "answerId": "c",
+    "explain": "Gentler taps create smaller vibrations, so the music stays soft.",
+    "standard": "4.MR.1.2"
+  },
+  {
+    "id": "u038",
+    "difficulty": "upper",
+    "type": "factMC",
+    "prompt": "Why do big drums boom lower than small drums?",
+    "audioInstrument": null,
+    "choices": [
+      { "id": "a", "label": "Their heads vibrate more slowly", "instrument": null },
+      { "id": "b", "label": "They are simply louder", "instrument": null },
+      { "id": "c", "label": "They use thicker sticks", "instrument": null }
+    ],
+    "answerId": "a",
+    "explain": "Slower vibrations mean lower pitch, so big drums rumble.",
+    "standard": "5.MR.1.2"
+  },
+  {
+    "id": "u039",
+    "difficulty": "upper",
+    "type": "factMC",
+    "prompt": "What word describes how loud or soft music is?",
+    "audioInstrument": null,
+    "choices": [
+      { "id": "a", "label": "Pitch", "instrument": null },
+      { "id": "b", "label": "Tempo", "instrument": null },
+      { "id": "c", "label": "Dynamics", "instrument": null }
+    ],
+    "answerId": "c",
+    "explain": "Dynamics name the volume, from whisper-soft to mighty loud.",
+    "standard": "4.MR.1.2"
+  },
+  {
+    "id": "u040",
+    "difficulty": "upper",
+    "type": "factMC",
+    "prompt": "Which instrument makes the highest, bird-like jungle chirp?",
+    "audioInstrument": null,
+    "choices": [
+      { "id": "a", "label": "Tuba", "instrument": "tuba" },
+      { "id": "b", "label": "Flute", "instrument": "flute" },
+      { "id": "c", "label": "Double Bass", "instrument": "doublebass" }
+    ],
+    "answerId": "b",
+    "explain": "Short, small tubes vibrate fastest, so the flute chirps highest.",
+    "standard": "5.MR.1.2"
+  },
+  {
+    "id": "u041",
+    "difficulty": "upper",
+    "type": "oddOneOut",
+    "prompt": "Which one does NOT belong?",
+    "audioInstrument": null,
+    "choices": [
+      { "id": "a", "label": "Violin", "instrument": "violin" },
+      { "id": "b", "label": "Harp", "instrument": "harp" },
+      { "id": "c", "label": "Trumpet", "instrument": "trumpet" },
+      { "id": "d", "label": "Cello", "instrument": "cello" }
+    ],
+    "answerId": "c",
+    "explain": "The trumpet runs on buzzing lips; the others play vibrating strings.",
+    "standard": "3.MR.1.2"
+  },
+  {
+    "id": "u042",
+    "difficulty": "upper",
+    "type": "oddOneOut",
+    "prompt": "One instrument sneaked into the wrong family. Which is it?",
+    "audioInstrument": null,
+    "choices": [
+      { "id": "a", "label": "Flute", "instrument": "flute" },
+      { "id": "b", "label": "Clarinet", "instrument": "clarinet" },
+      { "id": "c", "label": "Bassoon", "instrument": "bassoon" },
+      { "id": "d", "label": "Trombone", "instrument": "trombone" }
+    ],
+    "answerId": "d",
+    "explain": "The trombone is brass; the others split air with reeds or an edge.",
+    "standard": "4.MR.1.2"
+  },
+  {
+    "id": "u043",
+    "difficulty": "upper",
+    "type": "oddOneOut",
+    "prompt": "Three friends share a family. Who is the intruder?",
+    "audioInstrument": null,
+    "choices": [
+      { "id": "a", "label": "Harp", "instrument": "harp" },
+      { "id": "b", "label": "Trombone", "instrument": "trombone" },
+      { "id": "c", "label": "Tuba", "instrument": "tuba" },
+      { "id": "d", "label": "Trumpet", "instrument": "trumpet" }
+    ],
+    "answerId": "a",
+    "explain": "The harp sings with strings; the other three buzz as brass.",
+    "standard": "3.MR.1.2"
+  },
+  {
+    "id": "u044",
+    "difficulty": "upper",
+    "type": "oddOneOut",
+    "prompt": "Which one does NOT belong?",
+    "audioInstrument": null,
+    "choices": [
+      { "id": "a", "label": "Xylophone", "instrument": "xylophone" },
+      { "id": "b", "label": "Timpani", "instrument": "timpani" },
+      { "id": "c", "label": "Snare Drum", "instrument": "snaredrum" },
+      { "id": "d", "label": "Guitar", "instrument": "guitar" }
+    ],
+    "answerId": "d",
+    "explain": "The guitar's strings vibrate; true percussion is struck or shaken.",
+    "standard": "4.MR.1.2"
+  },
+  {
+    "id": "u045",
+    "difficulty": "upper",
+    "type": "oddOneOut",
+    "prompt": "Three friends share a family. Who is the intruder?",
+    "audioInstrument": null,
+    "choices": [
+      { "id": "a", "label": "Saxophone", "instrument": "saxophone" },
+      { "id": "b", "label": "Clarinet", "instrument": "clarinet" },
+      { "id": "c", "label": "Violin", "instrument": "violin" },
+      { "id": "d", "label": "Bassoon", "instrument": "bassoon" }
+    ],
+    "answerId": "c",
+    "explain": "Only the violin uses strings; the reeds make the others woodwinds.",
+    "standard": "4.MR.1.2"
+  },
+  {
+    "id": "u046",
+    "difficulty": "upper",
+    "type": "oddOneOut",
+    "prompt": "Which one does NOT belong?",
+    "audioInstrument": null,
+    "choices": [
+      { "id": "a", "label": "Flute", "instrument": "flute" },
+      { "id": "b", "label": "Timpani", "instrument": "timpani" },
+      { "id": "c", "label": "Xylophone", "instrument": "xylophone" },
+      { "id": "d", "label": "Snare Drum", "instrument": "snaredrum" }
+    ],
+    "answerId": "a",
+    "explain": "The flute floats on blown air; the others are struck percussion.",
+    "standard": "3.MR.1.2"
+  },
+  {
+    "id": "u047",
+    "difficulty": "upper",
+    "type": "oddOneOut",
+    "prompt": "Which one does NOT belong?",
+    "audioInstrument": null,
+    "choices": [
+      { "id": "a", "label": "Guitar", "instrument": "guitar" },
+      { "id": "b", "label": "Double Bass", "instrument": "doublebass" },
+      { "id": "c", "label": "French Horn", "instrument": "frenchhorn" },
+      { "id": "d", "label": "Harp", "instrument": "harp" }
+    ],
+    "answerId": "c",
+    "explain": "The French horn blares brass; the others make music with strings.",
+    "standard": "4.MR.1.2"
+  },
+  {
+    "id": "u048",
+    "difficulty": "upper",
+    "type": "oddOneOut",
+    "prompt": "Three friends share a family. Who is the intruder?",
+    "audioInstrument": null,
+    "choices": [
+      { "id": "a", "label": "Trumpet", "instrument": "trumpet" },
+      { "id": "b", "label": "French Horn", "instrument": "frenchhorn" },
+      { "id": "c", "label": "Tuba", "instrument": "tuba" },
+      { "id": "d", "label": "Bassoon", "instrument": "bassoon" }
+    ],
+    "answerId": "d",
+    "explain": "The bassoon's reed makes it a woodwind; the others are brass.",
+    "standard": "5.MR.1.2"
+  },
+  {
+    "id": "u049",
+    "difficulty": "upper",
+    "type": "oddOneOut",
+    "prompt": "One instrument sneaked into the wrong family. Which is it?",
+    "audioInstrument": null,
+    "choices": [
+      { "id": "a", "label": "Shaker Eggs", "instrument": "shaker" },
+      { "id": "b", "label": "Double Bass", "instrument": "doublebass" },
+      { "id": "c", "label": "Timpani", "instrument": "timpani" },
+      { "id": "d", "label": "Triangle", "instrument": "triangle" }
+    ],
+    "answerId": "b",
+    "explain": "The double bass bows strings; percussion gets hit, shaken, or scraped.",
+    "standard": "3.MR.1.2"
+  },
+  {
+    "id": "u050",
+    "difficulty": "upper",
+    "type": "oddOneOut",
+    "prompt": "Which one does NOT belong?",
+    "audioInstrument": null,
+    "choices": [
+      { "id": "a", "label": "Cello", "instrument": "cello" },
+      { "id": "b", "label": "Violin", "instrument": "violin" },
+      { "id": "c", "label": "Guitar", "instrument": "guitar" },
+      { "id": "d", "label": "Clarinet", "instrument": "clarinet" }
+    ],
+    "answerId": "d",
+    "explain": "The clarinet sings with air and a reed, not vibrating strings.",
+    "standard": "5.MR.1.2"
+  }
+]

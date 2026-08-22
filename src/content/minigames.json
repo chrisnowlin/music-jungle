@@ -1,0 +1,30 @@
+[
+  {
+    "id": "percussion",
+    "titleEarly": "Echo Drums",
+    "titleUpper": "Echo Drums",
+    "early": { "rounds": 8, "minLen": 1, "maxLen": 3, "bpm": 84, "missesAllowed": 3, "rests": false, "flashHints": true },
+    "upper": { "rounds": 8, "minLen": 2, "maxLen": 6, "bpm": 116, "missesAllowed": 1, "rests": true, "flashHints": false }
+  },
+  {
+    "id": "strings",
+    "titleEarly": "Vine Melody Memory",
+    "titleUpper": "Vine Melody Memory",
+    "early": { "rounds": 6, "minLen": 2, "maxLen": 3, "bpm": 92, "missesAllowed": 3, "rests": false, "flashHints": true },
+    "upper": { "rounds": 6, "minLen": 3, "maxLen": 5, "bpm": 104, "missesAllowed": 1, "rests": false, "flashHints": false }
+  },
+  {
+    "id": "woodwinds",
+    "titleEarly": "Wind Song Match",
+    "titleUpper": "Wind Song Match",
+    "early": { "rounds": 6, "minLen": 3, "maxLen": 3, "bpm": 90, "missesAllowed": 2, "rests": false, "bandWidth": 0.34, "drift": 0 },
+    "upper": { "rounds": 6, "minLen": 3, "maxLen": 4, "bpm": 96, "missesAllowed": 1, "rests": false, "bandWidth": 0.16, "drift": 0.22 }
+  },
+  {
+    "id": "brass",
+    "titleEarly": "Buzz Lab",
+    "titleUpper": "Buzz Lab",
+    "early": { "rounds": 6, "zones": 2, "bandWidth": 0.26, "holdSecs": 1.0, "missesAllowed": 3, "drift": 0 },
+    "upper": { "rounds": 7, "zones": 4, "bandWidth": 0.12, "holdSecs": 1.1, "missesAllowed": 1, "drift": 0.14 }
+  }
+]

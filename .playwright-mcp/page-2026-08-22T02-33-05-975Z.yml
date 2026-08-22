@@ -1,0 +1,9 @@
+- generic [ref=e5]:
+  - generic [ref=e6]: 🐒 🦜 🦁 🐘
+  - heading "Music Jungle" [level=1] [ref=e7]
+  - paragraph [ref=e8]: Explore the jungle. Discover the instrument families!
+  - generic [ref=e9]:
+    - button "▶ Play" [ref=e10] [cursor=pointer]
+    - button "🍎 For Teachers" [ref=e11] [cursor=pointer]
+    - button "⛶ Fullscreen" [ref=e12] [cursor=pointer]
+  - paragraph [ref=e13]: v1.0.0 · works offline after first visit · add to Home Screen on iPad to keep progress

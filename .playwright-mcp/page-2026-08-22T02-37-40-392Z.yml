@@ -1,0 +1,10 @@
+- generic [ref=f5e2]:
+  - generic:
+    - generic [ref=f5e22]:
+      - button "🧭" [ref=f5e23] [cursor=pointer]
+      - generic [ref=f5e24]:
+        - text: 🔍
+        - generic [ref=f5e25]: 0/18
+    - button "☰" [ref=f5e27] [cursor=pointer]
+    - button "✋" [ref=f5e28] [cursor=pointer]
+    - generic: Welcome back, explorer!

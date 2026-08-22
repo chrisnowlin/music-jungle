@@ -1,0 +1,128 @@
+[
+  {
+    "id": "violin", "family": "strings", "landmark": "cave",
+    "nameEarly": "Violin", "nameUpper": "Violin",
+    "factEarly": "The littlest string instrument. You rub it with a bow!",
+    "factUpper": "Held under the chin, its four strings are bowed or plucked. The shortest string plays the highest notes of the string family.",
+    "accentColor": "#E69F00", "sample": "violin", "melody": [0, 2, 4, 7, 4]
+  },
+  {
+    "id": "guitar", "family": "strings", "landmark": "cave",
+    "nameEarly": "Guitar", "nameUpper": "Guitar",
+    "factEarly": "You strum it with your fingers or a pick.",
+    "factUpper": "Six strings are plucked or strummed. Frets on the neck shorten the strings to change pitch — the same idea as a violin fingerboard.",
+    "accentColor": "#d98e2b", "sample": "guitar", "melody": [0, 4, 7, 12]
+  },
+  {
+    "id": "cello", "family": "strings", "landmark": "cave",
+    "nameEarly": "Cello", "nameUpper": "Cello",
+    "factEarly": "A big string instrument you sit behind, like a hug!",
+    "factUpper": "The cello sits between the player's knees, its endpin on the floor. Its long strings vibrate slowly, giving a rich, deep singing tone.",
+    "accentColor": "#b87333", "sample": "cello", "melody": [0, 3, 5, 7]
+  },
+  {
+    "id": "doublebass", "family": "strings", "landmark": "cave",
+    "nameEarly": "Double Bass", "nameUpper": "Double Bass",
+    "factEarly": "The biggest string instrument — it goes super low!",
+    "factUpper": "The largest and lowest string instrument. Its long, thick strings vibrate slowly, so players often stand or sit on a tall stool.",
+    "accentColor": "#8a5a2b", "sample": "doublebass", "melody": [0, 5, 3, 0]
+  },
+  {
+    "id": "harp", "family": "strings", "landmark": "cave",
+    "nameEarly": "Harp", "nameUpper": "Harp",
+    "factEarly": "You pluck its many strings with your fingers. So pretty!",
+    "factUpper": "Forty-seven strings are plucked directly with the fingers. Shorter strings vibrate faster and play higher notes — no fingerboard needed.",
+    "accentColor": "#c9a227", "sample": "harp", "melody": [0, 4, 7, 9, 12]
+  },
+  {
+    "id": "flute", "family": "woodwinds", "landmark": "grove",
+    "nameEarly": "Flute", "nameUpper": "Flute",
+    "factEarly": "You blow air across a hole, like blowing across a bottle!",
+    "factUpper": "The player blows air across the embouchure hole, splitting the stream to vibrate the air inside. It is one of the highest instruments in the orchestra.",
+    "accentColor": "#009E73", "sample": "flute", "melody": [0, 2, 4, 5, 7]
+  },
+  {
+    "id": "clarinet", "family": "woodwinds", "landmark": "grove",
+    "nameEarly": "Clarinet", "nameUpper": "Clarinet",
+    "factEarly": "It has a reed that wiggles when you blow. Squawk!",
+    "factUpper": "Air is split by a single reed tied to the mouthpiece. Covering and uncovering holes changes the length of the vibrating air column.",
+    "accentColor": "#0b7a58", "sample": "clarinet", "melody": [0, 2, 4, 2, 0]
+  },
+  {
+    "id": "saxophone", "family": "woodwinds", "landmark": "grove",
+    "nameEarly": "Saxophone", "nameUpper": "Saxophone",
+    "factEarly": "It looks shiny like brass, but it is a woodwind — surprise!",
+    "factUpper": "Made of brass but a woodwind: its sound comes from a single reed, like a clarinet. The bell and tube give it a bold, smooth voice.",
+    "accentColor": "#e0a13a", "sample": "saxophone", "melody": [0, 3, 7, 3, 0]
+  },
+  {
+    "id": "bassoon", "family": "woodwinds", "landmark": "grove",
+    "nameEarly": "Bassoon", "nameUpper": "Bassoon",
+    "factEarly": "A giant woodwind with a bendy straw on top!",
+    "factUpper": "A double-reed woodwind — two reeds vibrate against each other. Its folded tube is over 2.5 meters long, giving it a deep, reedy voice.",
+    "accentColor": "#a0622d", "sample": "bassoon", "melody": [0, 2, 0, -2, 0]
+  },
+  {
+    "id": "trumpet", "family": "brass", "landmark": "falls",
+    "nameEarly": "Trumpet", "nameUpper": "Trumpet",
+    "factEarly": "Buzz your lips to play the shiny loud one!",
+    "factUpper": "The player's lips buzz into the cup mouthpiece. Three valves open extra tubing to reach many notes. It is the highest brass instrument.",
+    "accentColor": "#CC79A7", "sample": "trumpet", "melody": [0, 4, 7, 12]
+  },
+  {
+    "id": "trombone", "family": "brass", "landmark": "falls",
+    "nameEarly": "Trombone", "nameUpper": "Trombone",
+    "factEarly": "It has a slide that goes wooOOOoo!",
+    "factUpper": "Instead of valves, the trombone has a slide. Moving it in and out changes the tubing length, so players can glide between pitches.",
+    "accentColor": "#b06a92", "sample": "trombone", "melody": [0, 2, 1, 0]
+  },
+  {
+    "id": "frenchhorn", "family": "brass", "landmark": "falls",
+    "nameEarly": "French Horn", "nameUpper": "French Horn",
+    "factEarly": "A coiled-up brass tube you wrap your hand inside!",
+    "factUpper": "About 4 meters of tubing coiled into a circle. The player puts a hand inside the bell to shape the mellow sound and presses rotary valves.",
+    "accentColor": "#a8557e", "sample": "frenchhorn", "melody": [0, 5, 4, 0]
+  },
+  {
+    "id": "tuba", "family": "brass", "landmark": "falls",
+    "nameEarly": "Tuba", "nameUpper": "Tuba",
+    "factEarly": "The giant brass one that goes super low — boom!",
+    "factUpper": "The largest brass instrument, with the longest tube, so it plays the lowest notes. It takes lots of air to make its big, round sound.",
+    "accentColor": "#8f4a6d", "sample": "tuba", "melody": [0, 0, 5, 0]
+  },
+  {
+    "id": "snaredrum", "family": "percussion", "landmark": "fire",
+    "nameEarly": "Snare Drum", "nameUpper": "Snare Drum",
+    "factEarly": "Metal springs underneath go rrrrrat-a-tat-tat!",
+    "factUpper": "Striking the top head shakes the drum; metal snares rattling against the bottom head give it its crisp buzz. Untuned — it keeps the rhythm.",
+    "accentColor": "#0072B2", "sample": "snaredrum", "melody": [0]
+  },
+  {
+    "id": "timpani", "family": "percussion", "landmark": "fire",
+    "nameEarly": "Timpani", "nameUpper": "Timpani",
+    "factEarly": "Giant copper bowls you tap with soft mallets. BOOM!",
+    "factUpper": "Also called kettledrums. A pedal tightens or loosens the head to tune it to real pitches — rare for drums! Played with felt mallets.",
+    "accentColor": "#2f5f8a", "sample": "timpani", "melody": [0]
+  },
+  {
+    "id": "xylophone", "family": "percussion", "landmark": "fire",
+    "nameEarly": "Xylophone", "nameUpper": "Xylophone",
+    "factEarly": "Wooden bars you bonk with mallets — like a wooden piano!",
+    "factUpper": "Wooden bars of different sizes are struck with mallets. Short bars vibrate faster and sound higher — the same science as a piano's strings.",
+    "accentColor": "#4a90c4", "sample": "xylophone", "melody": [0, 2, 4, 7, 9, 12]
+  },
+  {
+    "id": "triangle", "family": "percussion", "landmark": "fire",
+    "nameEarly": "Triangle", "nameUpper": "Triangle",
+    "factEarly": "A tiny metal triangle that goes ding! for a long time.",
+    "factUpper": "A steel rod bent into a triangle, struck with a beater. The metal vibrates with many overtones, so its ring lasts a surprisingly long time.",
+    "accentColor": "#7fa8c9", "sample": "triangle", "melody": [0]
+  },
+  {
+    "id": "shaker", "family": "percussion", "landmark": "fire",
+    "nameEarly": "Shaker Eggs", "nameUpper": "Shaker Eggs",
+    "factEarly": "Little eggs full of tiny bits — shake shake shake!",
+    "factUpper": "Sealed shells hold small beads. Shaking makes the beads bounce around inside, and all those tiny hits blend into one swishy sound.",
+    "accentColor": "#5a9e6f", "sample": "shaker", "melody": [0]
+  }
+]

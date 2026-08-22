@@ -1,0 +1,25 @@
+- generic [ref=f3e14]:
+  - generic [ref=f3e20]:
+    - heading "New Explorer" [level=2] [ref=f3e21]
+    - generic [ref=f3e22]: Name
+    - textbox "Type a name…" [ref=f3e23]: Maya
+    - generic [ref=f3e24]: Pick your jungle buddy
+    - generic [ref=f3e25]:
+      - button "🐒" [ref=f3e26] [cursor=pointer]
+      - button "🦜" [ref=f3e27] [cursor=pointer]
+      - button "🦁" [ref=f3e28] [cursor=pointer]
+      - button "🐘" [ref=f3e29] [cursor=pointer]
+      - button "🐊" [ref=f3e30] [cursor=pointer]
+      - button "🦓" [ref=f3e31] [cursor=pointer]
+      - button "🦥" [ref=f3e32] [cursor=pointer]
+      - button "🦋" [ref=f3e33] [cursor=pointer]
+    - generic [ref=f3e34]: Reading level
+    - generic [ref=f3e35]:
+      - generic [ref=f3e36] [cursor=pointer]: 🌱 Sprout (K–2)
+      - generic [ref=f3e37] [cursor=pointer]: 🧭 Explorer (3–5)
+    - generic [ref=f3e38]: "Teacher shortcut: bulk-create"
+    - textbox "Or paste a class list here — one name per line…" [ref=f3e39]
+    - generic [ref=f3e40]:
+      - button "Cancel" [ref=f3e41] [cursor=pointer]
+      - button "Create" [ref=f3e42] [cursor=pointer]
+  - button "← Back" [ref=f3e44] [cursor=pointer]

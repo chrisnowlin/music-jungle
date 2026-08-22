@@ -104,11 +104,11 @@ export class Player {
     if (moving && !this.autowalkTarget) {
       mx /= len;
       mz /= len;
-      // rotate by camera yaw
+      // camera-relative: forward = away from camera = -(sin yaw, cos yaw)
       const sin = Math.sin(camYaw);
       const cos = Math.cos(camYaw);
-      const wx = mx * cos + mz * sin;
-      const wz = -mx * sin + mz * cos;
+      const wx = mx * cos - mz * sin;
+      const wz = -mx * sin - mz * cos;
       let nx = this.group.position.x + wx * SPEED * dt;
       let nz = this.group.position.z + wz * SPEED * dt;
       ({ x: nx, z: nz } = colliders.resolve(nx, nz, PLAYER_R));

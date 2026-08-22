@@ -6,8 +6,8 @@ import * as THREE from 'three';
 import { getHeight } from '../world/terrain';
 
 const DIST = 8;
-const PITCH_MIN = -0.12;
-const PITCH_MAX = 1.05;
+const PITCH_MIN = 0.06;
+const PITCH_MAX = 1.2;
 
 export class CameraRig {
   yaw = Math.PI;      // behind player looking forward
@@ -16,9 +16,9 @@ export class CameraRig {
   private curPitch = 0.42;
   private look = new THREE.Vector3();
 
-  update(dt: number, playerPos: THREE.Vector3, camDeltaX: number, camera: THREE.PerspectiveCamera): void {
-    this.yaw += camDeltaX;
-    this.pitch = THREE.MathUtils.clamp(this.pitch, PITCH_MIN, PITCH_MAX);
+  update(dt: number, playerPos: THREE.Vector3, camDelta: { x: number; y: number }, camera: THREE.PerspectiveCamera): void {
+    this.yaw += camDelta.x;
+    this.pitch = THREE.MathUtils.clamp(this.pitch + camDelta.y, PITCH_MIN, PITCH_MAX);
     const k = Math.min(1, dt * 10);
     this.curYaw += (this.yaw - this.curYaw) * k;
     this.curPitch += (this.pitch - this.curPitch) * k;

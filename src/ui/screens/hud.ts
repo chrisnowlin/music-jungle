@@ -34,12 +34,16 @@ export function buildHud(onOpenPause: () => void, onAction: () => void, onCompas
   pause.addEventListener('click', onOpenPause);
   const action = button('action-btn', '✋');
   action.addEventListener('click', onAction);
+  const hint = div('hint-chip',
+    el('span', { class: 'hint-desktop' }, 'WASD move · drag or Q/E to look · Space interact'),
+    el('span', { class: 'hint-touch' }, 'Left: drag to walk · Right: drag to look'),
+  );
   const prompt = div('prompt-label hidden', '');
   const toast = div('toast', '');
   root.append(
     div('hud-top-left', compass, progress),
     div('hud-top-right', pause),
-    action, prompt, toast,
+    action, prompt, toast, hint,
   );
 
   let toastTimer = 0;

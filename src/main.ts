@@ -5,7 +5,7 @@
 import './ui/styles.css';
 import * as THREE from 'three';
 import { el, div, button } from './core/dom';
-import { initInput, sampleInput } from './core/input';
+import { initInput, sampleInput, setPlaySurfaces } from './core/input';
 import { initJoystick, sampleJoystick } from './core/joystick';
 import { initAudio, startAmbient, stopAmbient } from './core/audio';
 import { narratorSupported } from './core/narrator';
@@ -131,6 +131,7 @@ function enterWorld(): void {
   const touchLayer = div('');
   touchLayer.id = 'touch-layer';
   appRoot.append(touchLayer);
+  setPlaySurfaces(renderer.domElement, touchLayer);
   if (disposeJoystick) disposeJoystick();
   disposeJoystick = initJoystick(touchLayer);
   hud.refresh();
@@ -139,11 +140,38 @@ function enterWorld(): void {
   startAmbient();
   startProbe();
   if (!store.session.firstSessionDone) {
-    hud.showToast(narratorSupported() ? 'Follow the 🧭 to find hidden instruments!' : 'Walk to the glowing pedestals!');
+    showHowToPlay(() => {
+      hud.showToast(narratorSupported() ? 'Follow the 🧭 to find hidden instruments!' : 'Walk to the glowing pedestals!');
+    });
     store.session.firstSessionDone = true;
   } else {
     hud.showToast('Welcome back, explorer!');
   }
+}
+
+/** First-entry controls card — dismissible, mode-aware. */
+function showHowToPlay(onDone: () => void): void {
+  const early = store.mode === 'early';
+  const veil = div('modal-veil');
+  const card = div('card how-to');
+  card.append(
+    el('h2', {}, '🎮 How to play'),
+    el('p', { class: 'how-line' }, early
+      ? '🕹️ Hold the LEFT side of the screen and drag to walk'
+      : '🏃 Move with WASD / arrow keys (or left-side stick)'),
+    el('p', { class: 'how-line' }, early
+      ? '👀 Drag on the RIGHT side to look around'
+      : '👀 Look around: drag the mouse, or hold Q / E'),
+    el('p', { class: 'how-line' }, early
+      ? '✋ Tap the big ✋ button when you see something!'
+      : '✋ Press Space or tap ✋ when you see something!'),
+    button('btn primary', "Let's go!", () => {
+      veil.remove();
+      onDone();
+    }),
+  );
+  veil.append(card);
+  document.body.append(veil);
 }
 
 /* ---------- discovery registration ---------- */
@@ -380,7 +408,7 @@ player.onStuck = () => hudRefs?.showToast("The jungle is thick here — walk man
 /* ---------- input & loop ---------- */
 
 const disposeFns: (() => void)[] = [];
-disposeFns.push(initInput(renderer.domElement));
+disposeFns.push(initInput());
 disposeFns.push(initContextLoss(renderer.domElement, () => { paused = true; }, () => { paused = false; }));
 let disposeJoystick: (() => void) | null = null;
 
@@ -422,7 +450,7 @@ function loop(): void {
   const t = clock.elapsedTime;
 
   if (store.screen === 'play' && !paused && !isContextPaused()) {
-    const inp = sampleInput();
+    const inp = sampleInput(dt);
     (window as { __mj?: Record<string, unknown> }).__mj!.lastInput = inp;
     const joy = sampleJoystick();
     const move = {
@@ -432,7 +460,7 @@ function loop(): void {
     if (move.x !== 0 || move.y !== 0) player.cancelAutowalk();
     player.update(dt, move, rig.yaw, world.colliders);
 
-    rig.update(dt, player.position, inp.camDelta.x, camera);
+    rig.update(dt, player.position, inp.camDelta, camera);
     world.update(dt, t);
     updateSparkles(dt);
     tickProbe();

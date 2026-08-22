@@ -165,6 +165,25 @@ button {
 }
 .toast.on { opacity: 1; }
 
+/* persistent controls hint (bottom-left, never intercepts touches) */
+.hint-chip {
+  position: absolute; left: 14px; bottom: 12px;
+  background: rgba(20, 30, 16, .55); color: #dcedc8;
+  padding: 6px 12px; border-radius: 999px;
+  font-size: .78rem; font-weight: 600;
+  pointer-events: none !important;
+}
+.hint-touch { display: none; }
+@media (pointer: coarse) {
+  .hint-desktop { display: none; }
+  .hint-touch { display: inline; }
+}
+
+/* first-session how-to card */
+.how-to .how-line {
+  margin: 10px 0; font-size: 1.05rem; text-align: left;
+}
+
 /* joystick */
 #touch-layer { position: fixed; inset: 0; z-index: 15; }
 .joy-ring {

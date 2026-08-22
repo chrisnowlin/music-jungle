@@ -35,7 +35,7 @@ export function initJoystick(layer: HTMLElement): () => void {
     ringEl!.style.top = `${originY - RADIUS}px`;
     ringEl!.classList.remove('hidden');
     update(e.clientX, e.clientY);
-    layer.setPointerCapture?.(e.pointerId);
+    try { layer.setPointerCapture?.(e.pointerId); } catch { /* synthetic/inactive pointer */ }
   };
   const move = (e: PointerEvent) => {
     if (e.pointerId !== activeId) return;

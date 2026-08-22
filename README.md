@@ -68,6 +68,16 @@ CSV export of all stats (opens in Sheets/Excel), printable summary.
 
 Student data never leaves the device except when *you* export a file.
 
+## Controls
+
+| Action | Desktop | Touch |
+|---|---|---|
+| Move | WASD / arrow keys | drag LEFT side of screen (floating stick) |
+| Look / rotate camera | drag the mouse · hold **Q** / **E** | drag RIGHT side of screen |
+| Interact | Space, F, or Enter | big ✋ button |
+
+A first-time "How to play" card and a persistent hint chip teach these in-game.
+
 ## For developers
 
 ```bash
